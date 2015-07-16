@@ -15,15 +15,15 @@
 				<tr>
 					<td>Id</td>
 					<td>
-<%-- 						<form:input path="id" /> --%>
-						<input type="text" name="id">
+						<form:input path="id" />
+<!-- 						<input type="text" name="id"> -->
 					</td>
 				</tr>
 				<tr>
 					<td>Name</td>
 					<td>
-<%-- 						<form:input path="name"/> --%>
-						<input type="text" name="name">
+						<form:input path="name"/>
+<!-- 						<input type="text" name="name"> -->
 					</td>
 				</tr>
 				<tr>

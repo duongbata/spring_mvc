@@ -25,6 +25,7 @@ public class LoginController {
 		InfoValue info = new InfoValue();
 		info.setUserBean(user);
 		model.addAttribute("infoValue", info);
-		return "redirect:/login";
+		model.addAttribute("msg","I am Trunks");
+		return "redirect:/welcome";
 	}
 }
